@@ -2,7 +2,7 @@ part of 'books_bloc.dart';
 
 @immutable
 class BooksState {
-  BooksState({required this.books});
+  const BooksState({required this.books});
 
   final List<Book> books; 
 }
